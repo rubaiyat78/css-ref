@@ -1,0 +1,136 @@
+.external{
+    color: green;
+}
+
+input[type=checkbox]
+{
+    accent-color: red;
+}
+
+input[type=radio]
+{
+    accent-color: green;
+}
+
+input[type=range]
+{
+    accent-color: rgb(242, 255, 61);
+}
+
+progress
+{
+    accent-color: rgb(155, 250, 114);
+}
+
+.center
+{
+    width: 300px;
+    height: 200px;
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.center div{
+    width: 300px;
+    height: 40px;
+}
+
+.stretch
+{
+    width: 300px;
+    height: 200px;
+    border: 2px solid orange;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+.stretch div{
+    width: 300px;
+    height: 40px;
+}
+
+.flex-start
+{
+    width: 300px;
+    height: 200px;
+    border: 2px solid lightgreen;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.flex-start div{
+    width: 300px;
+    height: 40px;
+}
+
+.flex-end
+{
+    width: 300px;
+    height: 200px;
+    border: 2px solid lightcoral;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.flex-end div{
+    width: 300px;
+    height: 40px;
+}
+
+.space-between
+{
+    width: 300px;
+    height: 200px;
+    border: 2px solid lightpink;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.space-between div{
+    width: 300px;
+    height: 40px;
+}
+
+.space-around
+{
+    width: 300px;
+    height: 200px;
+    border: 2px solid pink;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.space-around div{
+    width: 300px;
+    height: 40px;
+}
+
+.space-evenly
+{
+    width: 300px;
+    height: 200px;
+    border: 2px solid hotpink;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+.space-evenly div{
+    width: 300px;
+    height: 40px;
+}
+
+.grid{
+    width: 300px;
+    height: 200px;
+    border: 4px solid blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-content: end;
+}
+
+.grid div{
+    width: 70px;
+    height: 70px;
+}
